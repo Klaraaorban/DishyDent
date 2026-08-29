@@ -148,6 +148,14 @@ const content = {
         privacyNote: 'Datele sunt folosite exclusiv pentru a răspunde solicitării dumneavoastră.',
       },
     },
+    community: {
+      eyebrow: 'Comunitate',
+      heading: 'Ne găsești și pe Facebook',
+      body: 'Publicăm rezultate ale tratamentelor și noutăți din cabinet. Comunitatea din Târgu Mureș ne urmărește activ — alătură-te și tu.',
+      statNumber: '630+',
+      statLabel: 'urmăritori pe Facebook',
+      cta: 'Vezi pagina de Facebook',
+    },
     cookieBanner: {
       text: 'Folosim doar cookie-uri esențiale. Harta interactivă se încarcă separat, doar cu acordul dumneavoastră.',
       accept: 'Accept',
@@ -293,6 +301,14 @@ const content = {
         requiredMessage: 'Kérjük, írjon egy rövid üzenetet.',
         privacyNote: 'Az adatokat kizárólag a megkeresés megválaszolására használjuk fel.',
       },
+    },
+    community: {
+      eyebrow: 'Közösség',
+      heading: 'Facebookon is megtalál minket',
+      body: 'Kezelési eredményeket és rendelői híreket osztunk meg. A marosvásárhelyi közösség aktívan követ minket — csatlakozzon Ön is.',
+      statNumber: '630+',
+      statLabel: 'követő Facebookon',
+      cta: 'Facebook oldal megtekintése',
     },
     cookieBanner: {
       text: 'Kizárólag alapvető sütiket használunk. Az interaktív térkép külön, csak az Ön hozzájárulásával töltődik be.',

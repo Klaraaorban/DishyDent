@@ -1,7 +1,6 @@
 .financing {
-  background: var(--bg-alt);
+  background: radial-gradient(900px 520px at -5% 100%, rgba(var(--glow), 0.24), transparent 65%), var(--bg-alt);
   color: var(--text);
-  border-top-color: var(--line);
 }
 
 .financing .eyebrow {
@@ -65,6 +64,8 @@
   flex-direction: column;
   gap: 0.1rem;
   border: 1.5px solid var(--brand);
+  background: rgba(var(--glow), 0.12);
+  box-shadow: 0 0 60px -12px rgba(var(--glow), 0.7);
   padding: var(--space-3) var(--space-4);
   font-family: var(--font-display);
   color: var(--brand-tint);

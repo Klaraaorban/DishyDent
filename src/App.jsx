@@ -5,6 +5,7 @@ import Hero from './components/Hero.jsx';
 import Services from './components/Services.jsx';
 import Financing from './components/Financing.jsx';
 import Contact from './components/Contact.jsx';
+import Community from './components/Community.jsx';
 import Footer from './components/Footer.jsx';
 import CookieConsent from './components/CookieConsent.jsx';
 
@@ -21,6 +22,7 @@ function Page() {
         <Services />
         <Financing />
         <Contact />
+        <Community />
       </main>
       <Footer />
       <CookieConsent />

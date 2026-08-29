@@ -1,3 +1,7 @@
+.services {
+  background: radial-gradient(1100px 560px at 105% -10%, rgba(var(--glow), 0.16), transparent 60%), var(--bg);
+}
+
 .services__grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -7,17 +11,31 @@
 }
 
 .service-card {
-  background: var(--bg);
+  background: var(--bg-alt);
   padding: var(--space-3);
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  transition: background-color 0.2s var(--ease), box-shadow 0.2s var(--ease);
+}
+
+.service-card:hover {
+  background: var(--surface);
+  box-shadow: inset 0 0 0 1px var(--brand);
 }
 
 .service-card__index {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 999px;
+  background: rgba(var(--glow), 0.18);
+  border: 1px solid var(--brand-dark);
   font-family: var(--font-display);
-  font-size: 0.9rem;
-  color: var(--brand-dark);
+  font-size: 0.85rem;
+  color: var(--brand-tint);
   font-weight: 600;
 }
 

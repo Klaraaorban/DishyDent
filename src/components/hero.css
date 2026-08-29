@@ -24,8 +24,7 @@
   background-image: url('/brand-mark-purple.png');
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.5;
-  filter: blur(1.5px) drop-shadow(0 0 60px rgba(147, 25, 140, 0.55));
+  opacity: 0.55;
   pointer-events: none;
 }
 

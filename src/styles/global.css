@@ -5,15 +5,16 @@
 ----------------------------------------------------------------*/
 :root {
   --bg: #0c0b10;
-  --bg-alt: #141218;
-  --surface: #1c1a22;
-  --line: #2d2933;
+  --bg-alt: #180f1e;
+  --surface: #201526;
+  --line: #3a2645;
   --text: #f6f4f6;
   --text-soft: #b7b2bd;
   --text-faint: #7c7883;
   --brand: #93198c;
   --brand-dark: #b02aa5;
   --brand-tint: #e7ace0;
+  --glow: 147, 25, 140;
   --white: #ffffff;
 
   --font-display: 'Fraunces Variable', 'Fraunces', Georgia, 'Times New Roman', serif;
@@ -164,8 +165,18 @@ ul {
 }
 
 .section {
+  position: relative;
   padding-block: var(--space-5);
-  border-top: 1px solid var(--line);
+}
+
+.section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, var(--line) 15%, rgba(var(--glow), 0.6) 50%, var(--line) 85%, transparent 100%);
 }
 
 @media (min-width: 700px) {
@@ -215,6 +226,7 @@ ul {
 
 .btn-primary:hover {
   background: var(--brand-dark);
+  box-shadow: 0 10px 34px -10px rgba(var(--glow), 0.65);
 }
 
 .btn-secondary {

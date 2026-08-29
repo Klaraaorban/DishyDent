@@ -1,3 +1,7 @@
+.contact {
+  background: radial-gradient(1000px 560px at 100% 100%, rgba(var(--glow), 0.14), transparent 60%), var(--bg);
+}
+
 .contact__grid {
   display: grid;
   gap: var(--space-5);
