@@ -148,13 +148,22 @@ const content = {
         privacyNote: 'Datele sunt folosite exclusiv pentru a răspunde solicitării dumneavoastră.',
       },
     },
-    community: {
-      eyebrow: 'Comunitate',
-      heading: 'Ne găsești și pe Facebook',
-      body: 'Publicăm rezultate ale tratamentelor și noutăți din cabinet. Comunitatea din Târgu Mureș ne urmărește activ — alătură-te și tu.',
-      statNumber: '630+',
-      statLabel: 'urmăritori pe Facebook',
-      cta: 'Vezi pagina de Facebook',
+    reviews: {
+      eyebrow: 'Recenzii',
+      heading: 'Ce spun pacienții',
+      intro: 'Recenzii reale, verificate de pe Google.',
+      items: [
+        {
+          name: 'Csaba B.',
+          rating: 5,
+          quote: 'Profesionist, curat, cabinet bine dotat, cu personal instruit și prietenos. Recomand cu căldură! 🙌',
+        },
+        {
+          name: 'Silviu S.',
+          rating: 5,
+          quote: 'Mulțumesc, cei mai drăguți oameni și super profesioniști. 😄🦷',
+        },
+      ],
     },
     cookieBanner: {
       text: 'Folosim doar cookie-uri esențiale. Harta interactivă se încarcă separat, doar cu acordul dumneavoastră.',
@@ -302,13 +311,22 @@ const content = {
         privacyNote: 'Az adatokat kizárólag a megkeresés megválaszolására használjuk fel.',
       },
     },
-    community: {
-      eyebrow: 'Közösség',
-      heading: 'Facebookon is megtalál minket',
-      body: 'Kezelési eredményeket és rendelői híreket osztunk meg. A marosvásárhelyi közösség aktívan követ minket — csatlakozzon Ön is.',
-      statNumber: '630+',
-      statLabel: 'követő Facebookon',
-      cta: 'Facebook oldal megtekintése',
+    reviews: {
+      eyebrow: 'Vélemények',
+      heading: 'Mit mondanak a páciensek',
+      intro: 'Valós, ellenőrzött Google-vélemények.',
+      items: [
+        {
+          name: 'Csaba B.',
+          rating: 5,
+          quote: 'Profi, tiszta, jól felszerelt rendelő, képzett és barátságos személyzettel. Csak ajánlani tudom! 🙌',
+        },
+        {
+          name: 'Silviu S.',
+          rating: 5,
+          quote: 'Köszönöm, a legkedvesebb emberek és szuper profik. 😄🦷',
+        },
+      ],
     },
     cookieBanner: {
       text: 'Kizárólag alapvető sütiket használunk. Az interaktív térkép külön, csak az Ön hozzájárulásával töltődik be.',
