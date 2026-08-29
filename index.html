@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>DishyDent — Cabinet stomatologic în Târgu Mureș</title>
+    <meta
+      name="description"
+      content="Servicii stomatologice complete în Târgu Mureș: consultații, igienizare, obturații, implanturi, ortodonție. Programări la telefon, mesaj sau la cabinet."
+    />
+    <link rel="canonical" href="https://www.dishydent.ro/" />
+    <meta name="theme-color" content="#0c0b10" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="preload" as="image" href="/brand-mark-purple.png" fetchpriority="high" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="business.business" />
+    <meta property="og:site_name" content="DishyDent" />
+    <meta property="og:title" content="DishyDent — Cabinet stomatologic în Târgu Mureș" />
+    <meta
+      property="og:description"
+      content="Tratamente dentare de la consultație până la implant. Programează cu un telefon."
+    />
+    <meta property="og:url" content="https://www.dishydent.ro/" />
+    <meta property="og:image" content="https://www.dishydent.ro/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="ro_RO" />
+    <meta property="og:locale:alternate" content="hu_HU" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="DishyDent — Cabinet stomatologic în Târgu Mureș" />
+    <meta
+      name="twitter:description"
+      content="Tratamente dentare de la consultație până la implant. Programează cu un telefon."
+    />
+    <meta name="twitter:image" content="https://www.dishydent.ro/og-image.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Dentist",
+        "name": "DishyDent",
+        "image": "https://www.dishydent.ro/og-image.png",
+        "url": "https://www.dishydent.ro/",
+        "telephone": "+40799646666",
+        "email": "dishydent@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Strada Aurel Filimon 24/6",
+          "addressLocality": "Târgu Mureș",
+          "postalCode": "540035",
+          "addressCountry": "RO"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 46.5457391,
+          "longitude": 24.5578733
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "08:00",
+            "closes": "20:00"
+          }
+        ],
+        "sameAs": ["https://www.facebook.com/dishydent"],
+        "availableLanguage": ["ro", "hu"]
+      }
+    </script>
+  </head>
+  <body>
+    <!--
+      Static replica of the contact form so Netlify's build-time form
+      detection can register it. The visible form is rendered by React
+      (see src/components/Contact.jsx) and posts to this same form name.
+    -->
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="text" name="phone" />
+      <textarea name="message"></textarea>
+      <input type="text" name="bot-field" />
+    </form>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

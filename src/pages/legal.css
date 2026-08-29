@@ -1,0 +1,30 @@
+.legal-page {
+  padding-block: var(--space-5) var(--space-6);
+}
+
+.legal-page__inner {
+  max-width: 42rem;
+}
+
+.legal-page h1 {
+  font-size: var(--fs-h1);
+}
+
+.legal-page__updated {
+  margin-top: var(--space-2);
+  color: var(--text-faint);
+  font-size: var(--fs-small);
+}
+
+.legal-page section {
+  margin-top: var(--space-4);
+}
+
+.legal-page h2 {
+  font-size: var(--fs-h3);
+  margin-bottom: var(--space-1);
+}
+
+.legal-page p {
+  color: var(--text-soft);
+}

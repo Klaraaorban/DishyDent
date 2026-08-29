@@ -1,0 +1,92 @@
+.financing {
+  background: var(--bg-alt);
+  color: var(--text);
+  border-top-color: var(--line);
+}
+
+.financing .eyebrow {
+  color: var(--brand-tint);
+}
+
+.financing__inner {
+  display: grid;
+  gap: var(--space-4);
+  align-items: start;
+}
+
+.financing__heading {
+  color: var(--text);
+  font-size: var(--fs-h2);
+  margin-top: var(--space-1);
+  max-width: 20ch;
+}
+
+.financing__body {
+  margin-top: var(--space-3);
+  font-size: var(--fs-lead);
+  color: #d9d3c5;
+  max-width: 40rem;
+}
+
+.financing__points {
+  margin-top: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  max-width: 34rem;
+}
+
+.financing__points li {
+  padding-left: 1.4rem;
+  position: relative;
+  color: #efe9dd;
+}
+
+.financing__points li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55rem;
+  width: 8px;
+  height: 8px;
+  background: var(--brand);
+}
+
+.financing__disclaimer {
+  margin-top: var(--space-4);
+  font-size: var(--fs-small);
+  color: #9aa0a2;
+  max-width: 34rem;
+}
+
+.financing__badge {
+  justify-self: start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  border: 1.5px solid var(--brand);
+  padding: var(--space-3) var(--space-4);
+  font-family: var(--font-display);
+  color: var(--brand-tint);
+}
+
+.financing__badge span:first-child {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.financing__badge span:last-child {
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+@media (min-width: 900px) {
+  .financing__inner {
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .financing__badge {
+    justify-self: end;
+  }
+}
